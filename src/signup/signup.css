@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loginContainer 
+{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   background-color: white;
+   flex-direction: column;
+   align-items: center;
+}
+.header 
+{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+
+}
+.innerContainer 
+{
+    width: 350px;
+    height: 500px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: none;
+    color: black;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+.box 
+{
+    width: 240px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid rgb(56, 54, 54);
+    border-radius: 5px;
+    color: black;
+    margin-top: 20px;
+    box-shadow: 0 0 2px black;
+    outline: none;
+}
+.button 
+{
+    width: 220px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(15, 139, 189);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.button.in
+{
+    background-color: rgb(21, 247, 21);
+    color: black;
+}
