@@ -62,3 +62,13 @@
     background-color: rgb(21, 247, 21);
     color: black;
 }
+@media (width<400px) {
+    .innerContainer{
+      width:90%;
+      height:90%;
+    }
+    .box 
+    {
+       width:90%
+    }
+}

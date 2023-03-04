@@ -31,3 +31,13 @@
     border: none;
     color: black;
 }
+@media (width<400px) {
+     .innerDiv{
+       width:90%;
+       height:90%;
+     }
+     .box 
+     {
+        width:90%
+     }
+}
